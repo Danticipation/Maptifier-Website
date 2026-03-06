@@ -66,8 +66,6 @@ export default function ContactPage() {
           ) : (
             <motion.form
               name={FORM_NAME}
-              data-netlify="true"
-              data-netlify-honeypot="bot-field"
               onSubmit={handleSubmit}
               className="space-y-6 rounded-xl border border-zinc-800 bg-surfaceElevated/50 p-8"
               initial={{ opacity: 0, y: 20 }}

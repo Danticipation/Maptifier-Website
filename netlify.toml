@@ -1,0 +1,4 @@
+# Skip plugin check that fails when it sees form usage without finding static HTML.
+# We use public/__forms.html for Netlify Forms; submissions POST to /__forms.html.
+[build.environment]
+  NETLIFY_NEXT_VERIFY_FORMS = "false"
